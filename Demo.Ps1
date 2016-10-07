@@ -13,17 +13,26 @@ demonstrations and would need to be modified for your environment.
     # and Happy Birthday Nov 18th
 
 # Why Powershell on Linux
+
 # on Mac 
 powershell
 Get-Command
 Get-Command | measaure
 code $profile # notice ps scripts work just fine.
+
 # Why Powershell on Linux
+#- Why now? Cloud worls - Azure, AWS - need cross latform management
+#- Supported for VMWare, SQL, and many more to come
+#- Empowers single management stack
+#- Open sourced - anyone can reaad the code and contribute
+#- Windows api versus document oriented -- object challange
+#- MIT License
 
 # GitHub Repo
 https://github.com/PowerShell/PowerShell
 # Releases
 https://github.com/PowerShell/PowerShell/releases
+
 
 #Copy to linux
 scp ./powershell-6.0.0_alpha.10-1.el7.centos.x86_64.rpm  root@centos:/PowerShell
@@ -112,9 +121,6 @@ Find-Module nx
 Install-module nx
 Get-DscResource
 # Go to DSC folder and open LinusDSC - execute
-
-
-
 
 #### LEARN Linux
 Jeffrey Snover
